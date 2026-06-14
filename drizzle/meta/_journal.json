@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1780815148663,
+      "tag": "0000_violet_joystick",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1780831086998,
+      "tag": "0001_stiff_legion",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1781335856563,
+      "tag": "0002_dry_jetstream",
+      "breakpoints": true
+    }
+  ]
+}
