@@ -123,7 +123,6 @@ export class ConsultationService {
       .insert(consultations)
       .values(payload)
       .returning();
-
     // Send mails in background
     Promise.allSettled([
       ConsultationMailService.sendPatientMail({
