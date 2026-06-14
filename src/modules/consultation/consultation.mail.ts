@@ -16,6 +16,7 @@ export class ConsultationMailService {
   static async sendPatientMail(
     payload: MailPayload
   ) {
+    console.log("Clinic mail sending with payload:", payload);
     await transporter.sendMail({
   from: process.env.MAIL_USER,
 
