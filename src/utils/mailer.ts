@@ -8,7 +8,7 @@ export const transporter =
       process.env.MAIL_PORT
     ),
 
-    secure: false,
+    secure: true,
 
     auth: {
       user:
