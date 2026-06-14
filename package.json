@@ -2,8 +2,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "tsx src/server.ts",
     "seed": "tsx src/db/seed.ts"
   },
   "devDependencies": {
