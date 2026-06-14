@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "start": "tsx src/server.ts",
+    "start": "node --import tsx src/server.ts",
     "seed": "tsx src/db/seed.ts"
   },
   "devDependencies": {
@@ -27,5 +27,8 @@
     "nodemailer": "^8.0.10",
     "zod": "^4.4.3",
     "tsx": "^4.22.4"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
